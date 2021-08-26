@@ -20,7 +20,8 @@
     - Install required python libraries
     - Run directed.py
 The algorithm will read files in the root directory, or generate seeded scale-free network. Uncomment the part in main funtion to switch.
-    
+Please note the algorithm is not generalized for arbiturary edge indexing. It requires the node index to be consecutive integers from 0 to N-1 where N is the number of edge.
+
 ## Perform extra runs
     -Run post_process.py
 4 layers of extra runs are implemented, excessive runs will save empty result
